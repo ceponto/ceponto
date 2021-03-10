@@ -1,0 +1,258 @@
+.body {
+  font-family: americana;
+  margin: 0px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.logo {
+  text-align: left; /* Center the text */
+  float: left;
+  color: red;
+  text-decoration: none;
+  padding-top: 12px;
+  padding-left: 4%;
+  font-size: 36px;
+  position:absolute;
+  z-index: 1;   
+}
+
+.logo2 {
+  color: red;
+  text-decoration: none;
+  padding-top: 56px;
+  font-size: 10px;
+  text-align: left; /* Center the text */
+  float: left;
+  padding-left: 4%;
+  position:absolute;
+  z-index: 2;
+}
+
+.botons {
+  display: block;
+  color: red; 
+  text-align: right; /* Center the text */
+  padding-top: 20px;
+  padding-right: 5%;
+  padding-bottom: 8px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.botons2 {
+  display: block;
+  color: red; 
+  text-align: right; /* Center the text */
+  padding: 0px 5%;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 12px;  
+}
+
+.botons:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.botons2:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center; /* Center the text */
+  color: red;
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.lines {
+  float: left;
+  background-color: red;
+  width: 1px;
+  margin-right: 5px;
+  -webkit-transition: all 1s ease;
+  height: 100%;
+  position: absolute;
+  right: 74%;
+  top: 0;
+}
+
+.subtitle {
+  text-align: justify-all; /* Center the text */
+  color: red;
+  text-decoration: none;
+  padding-left: 26%;
+  padding-right: 26%;
+  margin-left: 5px;
+  font-size: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image2 {
+  margin-top: 24px;
+  width:90%;
+  margin-bottom: 3%;
+  background-position: center;
+  background-size: cover;
+  margin-left: 5%;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.text3 {
+  text-align: justify-all; /* Center the text */
+  color: red;
+  text-decoration: none;
+  padding-left: 26%;
+  padding-right: 26%;
+  margin-bottom: 40px;
+  margin-left: 5px;
+  font-size: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.lines2 {
+  height: 1px;
+  width: 100%;
+  background-color: red;
+}
+
+       /*______MENU______*/
+
+.grid {
+  display: grid;
+  grid-row-gap: 3%;
+  grid-column-gap: 5%;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 16%;
+}
+
+.squares {
+  align-self: stretch;
+}
+
+.image {
+  padding-top: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid red;
+  border-bottom: 0px;
+  border-radius: 100%;
+  -webkit-transition: box-shadow 0.5s ease; 
+  -moz-transition: box-shadow 0.5s ease; 
+  -o-transition: box-shadow 0.5s ease; 
+  -ms-transition: box-shadow 0.5s ease; 
+  transition: box-shadow 0.5s ease;
+}
+
+.image:hover {
+  box-shadow: 1px -5px 10px red;
+}
+
+
+.text {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  font-size: 60%;
+  color: red;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.text2 {
+  text-align: center;
+  font-size: 50%;
+  color: red;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 16px;
+  background-color: red;
+  color: white;
+  padding-top: 5px;
+  font-size: 9px;
+  padding-left: 5%;
+}
+
+.botons4 {
+  float: right;
+  padding-right: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.botons4:hover {
+  text-decoration: underline white; 
+}
+
+.botons44 {
+  float: right;
+  padding-right: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+.botons44:hover {
+  text-decoration: underline white; 
+}
+
+
+
+@media screen and (max-width: 500px) {   
+
+.lines {
+  right: 90%;
+}    
+    
+.subtitle {
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.text3 {
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+    
+.grid {
+    padding-top: 10%;
+    grid-template-columns: auto auto;
+    grid-row-gap: 1%;
+    padding-bottom: 45%;
+  }
+}
