@@ -70,6 +70,59 @@
   text-decoration: underline;
 }
 
+.landing {
+  margin-top: -84px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid red;
+}
+
+.title2 {
+  padding-left: 4.6%;
+  color: red;
+  text-decoration: none;
+  padding-top: 320px;
+  font-size: 48px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 7px #000000;
+}
+
+.subtitle {
+  text-align: justify-all; /* Center the text */
+  color: red;
+  text-decoration: none;
+  padding-left: 6%;
+  padding-right: 5%;
+  margin-left: 5px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.lines {
+  float: left;
+  background-color: red;
+  width: 1px;
+  margin-right: 5px;
+  -webkit-transition: all 1s ease;
+  height: 100%;
+  position: absolute;
+  right: 95%;
+  top: 0;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.title {
+  text-align: center; /* Center the text */
+  color: red;
+  text-decoration: none;
+  padding-top: 30px;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
 .grid {
   display: grid;
   grid-row-gap: 3%;
@@ -210,4 +263,32 @@ p {
   -ms-transition: box-shadow 0.5s ease; 
   transition: box-shadow 0.5s ease;
 }
+    
+.landing {
+  margin-top: -84px;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid red;
+}
+    
+.title2 {
+  padding-left: 4.6%;
+  text-decoration: none;
+  padding-top: 210px;
+  font-size: 34px;
+  padding-bottom: 10px;
+}
+    
+.subtitle {
+  text-align: justify-all; /* Center the text */
+  text-decoration: none;
+  padding-left: 6%;
+  padding-right: 20%;
+  margin-left: 5px;
+  font-size: 16px;
+  overflow: hidden;
+  position: relative;
+}
+    
 }
