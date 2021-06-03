@@ -136,7 +136,18 @@
   background-position: center;
   background-size: cover;
   margin-left: 5%;
+}
 
+.image6 {
+  margin-top: 24px;
+  width:90%;
+  padding-top: 48%;
+  background-color: red;
+  margin-bottom: 2%;
+  background-position: center;
+  background-size: cover;
+  margin-left: 5%;
+  border: 0.5px solid red;
 }
 
 a:link {
