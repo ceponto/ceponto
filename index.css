@@ -292,3 +292,34 @@ p {
 }
     
 }
+
+@media screen and (max-width: 480px) {   
+    
+.landing {
+  margin-top: -84px;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid red;
+}
+    
+.title2 {
+  padding-left: 4.6%;
+  text-decoration: none;
+  padding-top: 160px;
+  font-size: 34px;
+  padding-bottom: 10px;
+}
+    
+.subtitle {
+  text-align: justify-all; /* Center the text */
+  text-decoration: none;
+  padding-left: 6%;
+  padding-right: 20%;
+  margin-left: 5px;
+  font-size: 16px;
+  overflow: hidden;
+  position: relative;
+}
+    
+}
